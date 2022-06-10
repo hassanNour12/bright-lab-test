@@ -1,0 +1,52 @@
+{
+    "menu": [{
+            "navheader": "CRM"
+        },
+        {
+            "url": "customers",
+            "name": "Customers",
+            "slug": "customers",
+            "icon": "users"
+        },
+        {
+            "navheader": "Toppings"
+        },
+        {
+            "url": "toppings",
+            "name": "Toppings",
+            "slug": "toppings",
+            "icon": "morph-sort-alt"
+        },
+        {
+            "navheader": "Orders"
+        },
+        {
+            "url": "#",
+            "name": "Orders",
+            "slug": "orders",
+            "icon": "envelope-pull",
+            "submenu": [{
+                    "url": "orders",
+                    "name": "List",
+                    "slug": "orders-list",
+                    "icon": "bx bx-right-arrow-alt"
+                },
+                {
+                    "url": "add-new-order-view",
+                    "name": "Add",
+                    "slug": "order-add",
+                    "icon": "bx bx-right-arrow-alt"
+                }
+            ]
+        },
+        {
+            "navheader": "Online"
+        },
+        {
+            "url": "sync",
+            "name": "Sync Data",
+            "slug": "sync",
+            "icon": "globe"
+        }
+    ]
+}
