@@ -12,7 +12,8 @@ data-bgcolor="@if(isset($configData['navbarBgColor'])){{$configData['navbarBgCol
           </ul>
           
         </div>
-        <ul class="nav navbar-nav float-right">
+        <a class="btn btn-info" href="{{asset('/logout')}}"><i class="bx bx-power-off mr-50"></i> Logout</a>
+        {{-- <ul class="nav navbar-nav float-right">
           <li class="dropdown dropdown-user nav-item">
             <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
               <div class="user-nav d-sm-flex d-none">
@@ -28,7 +29,7 @@ data-bgcolor="@if(isset($configData['navbarBgColor'])){{$configData['navbarBgCol
               <a class="dropdown-item" href="{{asset('/logout')}}"><i class="bx bx-power-off mr-50"></i> Logout</a>
             </div>
           </li>
-        </ul>
+        </ul> --}}
       </div>
     </div>
   </div>

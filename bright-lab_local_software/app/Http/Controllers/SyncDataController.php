@@ -15,6 +15,11 @@ use App\Models\Sync;
 
 class SyncDataController extends Controller
 {
+    public function index()
+    {
+        return view('pages.sync.sync-index');
+    }
+
     public function sync(Request $request)
     {
         try {
