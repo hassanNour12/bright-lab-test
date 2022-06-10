@@ -9,7 +9,7 @@ Is a software that mr x can manage:
 - orders (view, add, edit, delete, and restore)
 
 # Installation
-The Project use PHP version 8 or higher and laravel framework 8
+The Project use PHP version 8  and laravel framework 8
 First run:
 ```sh
 composer install
@@ -35,7 +35,7 @@ on your browser add to the url "/add_new/register" to register a new account. At
 Is a software where mr x backup his data from offline database.
 
 # Installation
-The Project use PHP version 7 or higher and laravel framework 8
+The Project use PHP version 7  and laravel framework 8
 First run:
 ```sh
 composer install
@@ -63,5 +63,5 @@ After success syncing all synced rows sync at timestamp will be updated and a re
 - Get the ip of the copmputer/laptop where ONLINE SOFTWARE
 - In File explorer navigate to 
    - your-project/app/Http/Controllers/Auth/RegisterController.php line:92 and change (192.168.1.5) to ip you get
-   - your-project/app/Http/Controllers/SyncDataController.php line:82 and line:152 and change (192.168.1.5) to ip you get
+   - your-project/app/Http/Controllers/SyncDataController.php line:89 and line:162 and change (192.168.1.5) to ip you get
 - I tried to implement sending email to mr x after syncing finishes but still getting an auth-error saying that it can not be authorized
