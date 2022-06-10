@@ -35,7 +35,7 @@ on your browser add to the url "/add_new/register" to register a new account. At
 Is a software where mr x backup his data from offline database.
 
 # Installation
-The Project use PHP version 8 or higher and laravel framework 8
+The Project use PHP version 7 or higher and laravel framework 8
 First run:
 ```sh
 composer install
